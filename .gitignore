@@ -1,0 +1,18 @@
+# Raw data files
+*.csv
+*.pcap
+*.parquet
+*.zip
+
+# Sensitive data folder
+data/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter notebook temp checkpoints
+.ipynb_checkpoints/
+
+# OS system files
+.DS_Store

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ml-workspace:
+    build: .
+    ports:
+      - "8888:8888" # Jupyter Notebook port
+      - "4040:4040" # PySpark UI port
+    volumes:
+      - .:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
