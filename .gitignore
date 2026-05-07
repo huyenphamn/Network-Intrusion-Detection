@@ -16,3 +16,22 @@ __pycache__/
 
 # OS system files
 .DS_Store
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python static analysis/IDE
+.vscode/
+.idea/
+.mypy_cache/
+.pytest_cache/
+
+# Spark/Hadoop logs
+derby.log
+metastore_db/
+spark-warehouse/
