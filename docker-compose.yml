@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   ml-workspace:
+    container_name: network-intrusion-ml-workspace
     build: .
     ports:
       - "8888:8888" # Jupyter Notebook port
